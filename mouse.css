@@ -1,0 +1,52 @@
+.header {  
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #b266ff;
+    
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.intro {
+    background-color: mistyrose;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+a:link{
+    color: #b266ff;
+}
+
+a:visited{
+    color: #b266ff;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+body {
+    background-image: url("images/mouse.jpg");
+    background-size: 25%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: medium;
+    margin: 0px;
+}
